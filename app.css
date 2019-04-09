@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/Fondo4.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.logo{
+    height: 65px;
+    margin: 0% 0% 0% 5%;
+
+}
+.nav-wrapper{
+   border-radius: 10%;
+}
+nav{
+    background-color: #ffb108;
+}
+.colorletra{
+    color: black;
+    font-weight: bolder;
+}
+.carousel{
+    background-color: #ffb108;
+    border-radius: 1vw;
+}
+.clientes{
+    display: flex;
+    flex-direction: row;
+}
+.clientes article{
+    flex: 1 2 20%;
+    text-align: center;
+}
+.Texto1{
+    font-family: 'Roboto Slab', serif, thin;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.3vw;
+    color: rgb(0, 0, 0);;
+}
+.Texto2{
+    font-family: 'Roboto Slab', serif, thin;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.7vw;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);;
+}
+footer{
+    text-align: center;
+    font-family: 'Roboto Slab', serif, thin;
+    font-weight: 100;
+    background-color: rgb(21, 17, 39);
+    color: rgb(223, 222, 230);
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    opacity: 0.9;
+    border-radius: 0.6vw;
+}
+footer h1{
+    margin: 0;
+    font-size: 1.2vw;
+}
+footer h3{
+    margin: 0;
+    font-size: 1vw;
+}
+footer h4{
+    margin: 0;
+    font-size: 0.8vw;
+}
+footer h5{
+    margin: 0;
+    font-size: 0.8vw;
+}
+.roboto{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: black;
+}
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: #26a69a;
+    border-radius: 50%;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}

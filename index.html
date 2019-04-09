@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> <br>
+        <nav> 
+            <div class="nav-wrapper padding-nav grey lighten-4">
+                <a href="#" class="brand-logo left hide-on-med-and-down"><img class="logo" src="../Mi pagina/Images/logohorizontalt.png" alt=""></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="colorletra roboto">Inicio</a></li>
+                    <li><a href="servicios.html" class="colorletra roboto">Servicios</a></li>
+                    <li><a href="nosotros.html" class="colorletra roboto">Nosotros</a></li>
+                    <li><a href="contactenos.html" class="colorletra roboto">Contáctenos</a></li>
+                </ul>
+            </div>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+
+        </nav>
+        <section> <br>
+            
+            <div class="carousel carousel-slider center">
+                <!--<div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+                -->
+                
+                <div class="carousel-item red white-text" href="">
+                    <img src="../Materializr/images/uno.jpg" alt="">
+                    <h2>First Panel</h2>
+                    <p class="black-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                    <h2>Second Panel</h2>
+                    <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                    <h2>Third Panel</h2>
+                    <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <h2>Fourth Panel</h2>
+                    <p class="white-text">This is your fourth panel</p>
+                </div>
+            </div>
+            <div>
+                <H2 class="Texto1">Somos una empresa dedicada a<br>Diseño y desarrollo de proyectos de ingenieria eléctrica,<br> 
+                    redes estructuradas de voz y datos,<br>sistemas de alarma, CCTV y mantenimiento de instalaciones<br>
+                    comerciales e industriales</H2>
+                    <br>
+                <div class="Texto2">Algunos de nuestros clientes</div> <br>
+                <section class=clientes>
+                    <article>
+                        <img src="../Mi pagina/Images/lavaquita.png" alt="Supermercados La Vaquita" title="Supermercados La Vaquita" width="100" height="auto">
+                    </article>
+                    <article>
+                        <img src="../Mi pagina/Images/HotelVivre.png" alt="Hotel Vivre" title="Hotel Vivre" width="250" height="auto">
+                    </article>
+                    <article>
+                        <img src="../Mi pagina/Images/MerkaCaldast.png" alt="Supermercado MerkaCaldas" title="Supermercado MerkaCaldas" width="200" height="auto">
+                    </article>
+                    <article>
+                        <img src="../Mi pagina/Images/La80Supermercadost.png" alt="La 80 Supermercados" title="La 80 Supermercados" width="100" height="auto">
+                    </article>
+                    <article>
+                        <img src="../Mi pagina/Images/LaHacienda.png" alt="La Hacienda" title="La Hacienda" width="100" height="auto">
+                    </article>
+                    
+                </section>
+            </div>
+
+        </section>
+        <br><br>
+        <footer>
+            <h1>ElectroCés Ingeniería S.A.S.</h1>
+            <h3>Medellín, Colombia | Cel: 3108438500 | E-mail: electrocesingenieria@gmail.com</h3>
+            <h4>Todos los derechos reservados</h4>
+            <h5>Desarrollado por: Santiago Céspedes Montoya</h5>
+        </footer>
+    </div>
+
+
+
+<!--
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l4 xl4 column indigo darken-1"></div>
+            <div class="col s12 m3 l4 xl4 column light-blue accent-3"></div>
+            <div class="col s12 m5 l4 xl4 column light-green accent-3"></div>
+        </div>
+        <div class="row">
+            <div class="col s4 offset-s4 column orange darken-3 hide-on-small-only"></div>
+        </div>
+        <div class="row">
+            <div class="col s4 cyan darken-1 column push-s8 valign-wrapper"><h5 class="center-align truncate">Columna 1 fcgxcghvhjbkhghgfchjbkhgdfsghjgfdxgchvhbjhvgcfxchjvk</h5></div>
+            <div class="col s8 teal darken-1 column pull-s4 valign-wrapper center-align"><h5>Columna 2</h5></div>
+        </div>
+    </div>
+    <div class="video-container">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+-->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+    <script>
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        autoplay();
+        function autoplay() {
+            $('.carousel.carousel-slider').carousel('next');
+            setTimeout(autoplay, 4500);
+        }
+    </script>
+</body>
+</html>
